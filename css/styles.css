@@ -17,6 +17,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+a {
+    text-decoration: none;
+  }
+
 .link {
     text-decoration: none;
 }
@@ -109,10 +113,6 @@ body {
     margin: -1px;
 }
 
-.benefits {
-    background-color: var(--secondary-background);
-}
-
 .title-text {
     font-weight: 700;
     font-size: 14px;
@@ -141,6 +141,10 @@ body {
 
 .what are we doing company {
     background-color: var(--secondary-background)
+}
+
+.team {
+    background-color: var(--different-background);
 }
 
 .title-team-employee {
@@ -174,6 +178,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--additional-color);
+    font-style: normal;
 }
 
 .button-name {
@@ -210,7 +215,7 @@ body {
 }
 
 .logo-footer {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
