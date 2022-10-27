@@ -78,6 +78,10 @@ a {
     color: var(--accent);
 }
 
+.hero-button:hover, .hero-button :focus {
+    background-color: #188CE8;
+    }
+
 .main-title {
     font-weight: 900;
     font-size: 44px;
